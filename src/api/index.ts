@@ -1,5 +1,5 @@
 import axios from "axios";
 
 export const productsApi = axios.create({
-  baseURL: "http://localhost:4000",
+  baseURL: "https://api-pr.up.railway.app",
 });
